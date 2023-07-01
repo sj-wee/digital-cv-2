@@ -1,116 +1,92 @@
-# The Minimal theme
+# Shi Jun Wee
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal.svg)](https://badge.fury.io/rb/jekyll-theme-minimal)
+Hi! My name is Shi Jun (he/him). I am from Singapore, and will be heading to Maryland, USA, for my PhD in Fall 2023. My interests are in using satellite remote sensing to investigate the trends, drivers, and impacts of land-cover/land-use change and its interactions with climate change, with a focus on tropical regions. I will be working in the Global Land Analysis and Discovery (GLAD) laboratory, under the supervision or Dr. Xiao-Peng Song.
 
-*Minimal is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/minimal), or even [use it today](#usage).*
+🛰️🌏🌳🌾🔥
 
-![Thumbnail of Minimal](thumbnail.png)
+[Email](mailto:sjwee@umd.edu) / [LinkedIn](https://www.linkedin.com/in/weeshijun/) / [Twitter](https://twitter.com/shijunwee)
 
-## Usage
+---
+## Education 
+**PhD in Geographical Sciences (2023 – )**  
+*University of Maryland, College Park, USA*
 
-To use the Minimal theme:
+**BS (Hons) in Environmental Earth Systems Science, Geosciences (2023)**  
+*Nanyang Technological University (NTU), Singapore*
 
-1. Add the following to your site's `_config.yml`:
+---
+## Honors and Awards
+**NTU President Research Scholar (2022)**
 
-    ```yml
-    remote_theme: pages-themes/minimal@v0.2.0
-    plugins:
-    - jekyll-remote-theme # add this line to the plugins list if you already have one
-    ```
+**Distinction Award (2022)**  
+NTU Undergraduate Research Experience on Campus (URECA) Program  
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+**Best Student Poster Award (2021)**  
+Asia Oceania Geosciences Society Annual Meeting  
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+---
+## Skills
+Programming: R, Python, MATLAB  
+Software: ArcMap, QGIS, Agisoft Metashape  
+Others: Spatial statistics, Remote sensing, Geological field mapping
 
-## Customizing
+---
+## Research Experience
 
-### Configuration variables
+**Final Year Thesis. NTU, Singapore (2022 – 2023)**
+- Project: *Monitoring dissolved organic carbon concentration in coastal waters of Southeast Asia using remote sensing semi-analytical inversion models*  
+- Translated the original algorithm from IDL to Python  
+- Incorporated optical measurements from the Singapore Straits into a regional spectral library
 
-Minimal will respect the following variables, if set in your site's `_config.yml`:
+**URECA Program. NTU, Singapore (2021 – 2022)**
+- Project: *Explaining the spatiotemporal distribution of annual biomass fires in Indonesia since 2002*
+- Constructed yearly spatial regression models (GWR) using multiple publicly available datasets
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+**URECA Program. NTU, Singapore (2020 – 2021)**
+- Project: *Investigating the HLS variability of coral microatolls using photogrammetry*
+- Created 3D models and DEMs to study the morphology of coral microatolls, using photogrammetry
+- Participated in fieldwork in Singapore’s southern islands (surveying)
 
-Additionally, you may choose to set the following optional variables:
+**Lab Assistant. NTU, Singapore (2020 – 2021)**
+- Project: Effects of rainfall on tephra loading
+- Performed drainage and porosity tests on tephra with varying grain sizes and saturation levels
 
-```yml
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+---
+## Teaching Experience
 
-### Stylesheet
+**Guest Lecturer. NTU, Singapore (Oct 2022)**
+- Presented my study on biomass fires in Indonesia, with an emphasis on GIS applications, to [Geography students](https://nie.edu.sg/our-people/academic-groups/humanities-and-social-studies-education/ba#AAG23H) at the National Institute of Education
 
-If you'd like to add your own custom styles:
+**Teaching Assistant. NTU, Singapore (Fall 2021)**
+- Module: [ES2802 GIS and the Earth System](https://www.ntu.edu.sg/ase/admissions/undergraduate-programmes/modules-listing/gis-and-the-earth-system) (class size: 39 UGs, 6 PGs)
+- Assisted with lab assignments, grading, and software troubleshooting
+- Co-developed a new assignment to train students on basic QGIS toolsets and color blind-friendly cartography
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+---
+## Publications
+1. Williams, G.T., Jenkins, S., Lee, D.W.J., Wee, S.J. (2021). How rainfall influences tephra fall loading – an experimental approach, Bulletin of Volcanology, 83(6), 42‑.
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+---
+## Working Papers
+1. **Wee, S.J.**, Park, E., Alcantara, E., Lee, J.S.H (under review). Spatial regression reveals deforestation is consistently the main driver of wildfires in Indonesia since 2002.
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+---
+## Conferences
+1. Tan, F., **Wee, S.J.**, Lim, J., Teo, J., Tan, S., Gopal, A., Mitchell, A., Sarkawi, G., Li, X., Aung, L.T., Horton, B.P., Meltzner, A. (2021, Dec). Holocene Relative Sea-Level Change from Coral Microatolls at Sentosa, Singapore. American Geophysical Union (AGU), New Orleans, Louisiana, USA (online).
+2. Lim, J., **Wee, S.J.**, Tan, F., Tan, S., Gopal, A., Mitchell, A., Teo, J., Sarkawi, G., Li, X., Aung, L.T., Meltzner, A. (2021, Dec). Investigation of an Ongoing Sequence of Coral Microatoll Diedowns in Singapore (2020–2024?). American Geophysical Union (AGU), New Orleans, Louisiana, USA (online).
+3. Tan, S., **Wee, S.J.**, Tan, F., Gopal, A., Teo, J., Mitchell, A., Lim, J., Sarkawi, G., Aung, L.T., Li., X, Majewski, J., Bradley, K., Komori, J., Gautam, R., Meltzner, A. (2021, Dec). Photogrammetry-Based Three-Dimensional Models of Coral Microatoll Surface Morphologies as a Tool to Aid in Reconstruction of Relative Sea-Level Histories. American Geophysical Union, New Orleans, Louisiana, USA (online).
+4. **Wee, S.J.**, Tan, F., Gopal, A., Tan, S., Lim, J., Mitchell, A., Sarkawi, G., Aung, L.T., Li, X., Teo, J., Meltzner, A. (2021, Aug). An investigation of HLS variability from a 2020 diedown of coral microatolls in Singapore using photogrammetry. Asia Oceania Geosciences Society (AOGS), Singapore (online).
 
-### Layouts
+---
+## Work Experience
+**Research Intern. Artisan Green, Singapore (Dec 2018 – Mar 2019)**
+- Performed daily operations (e.g., sampling and sorting, data collection, maintenance)
+- Researched ways to increase the life span of fresh produce in storage
+- Worked with suppliers to finalize the product packaging for retail sale
 
-If you'd like to change the theme's HTML layout:
+**Full-time National Service. Republic of Singapore Navy (Jan 2017 – Nov 2018)**
 
-1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/minimal/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html).
-2. For more extensive changes, [copy the original template](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-3. Create a file called `/_layouts/default.html` in your site
-4. Paste the default layout content copied in the first step
-5. Customize the layout as you'd like
-
-### Customizing Google Analytics code
-
-Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
-
-### Overriding GitHub-generated URLs
-
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
-
-1. Look at [the template source](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
-
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
-
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/minimal/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Minimal theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Minimal? We'd love your help. Minimal is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/minimal`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
+---
+## Outreach
+**Featured in AOGS 2023 promotional video**  
+Shared my experience at AOGS 2021 and my visions for the organization's future
